@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DeviceKit
 
 class ViewController: UIViewController {
 
@@ -27,6 +28,8 @@ class ViewController: UIViewController {
         print("user_agent: \(user_agent)")
         print("os: \(os)")
         print("deviceName: \(deviceName)")
+        let device = Device()
+        print("DeviceKit device description: \(device.description)")
     }
 
 
